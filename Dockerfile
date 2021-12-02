@@ -1,3 +1,3 @@
 FROM nginx
 
-COPY README.md
+COPY README.md /
