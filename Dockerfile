@@ -1,3 +1,3 @@
-FROM nginx
+FROM nginx:stable
 
 COPY README.md /
