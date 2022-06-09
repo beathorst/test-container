@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  web:
+    build: .
+    container_name: test-container
+    ports:
+      - 82:80
