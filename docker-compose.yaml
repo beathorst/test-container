@@ -1,7 +1,8 @@
 version: "3.7"
 services:
   web:
-    build: .
+#    build: .
+    image: ghcr.io/beathorst/test-container:main
     container_name: test-container
     ports:
       - 82:80
